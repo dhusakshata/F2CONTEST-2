@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Recipe Catalogue</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Link CSS file -->
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="images/Cookpal 1.png" width="96px" height="46px"></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        
+      </ul>
+    </nav>
+
+  <!--Search Bar-->
+  <div class="search-container">
+   <h6>Search for recipes</h6>
+   <div class="search1">
+    <input type="text" id="search" placeholder="Search recipes...">
+    <i class="fas fa-search search-icon"></i>
+   </div>
+  </div>
+
+  <div class="filter-container">
+    <button class="toggle-button" data-type="all" id=toggle1>Show All</button> 
+    <button class="toggle-button" data-type="veg" id=toggle2>Show Only Veg</button>
+    <button class="toggle-button" data-type="non-veg" id=toggle3>Show Only Non-Veg</button>
+
+    <label>
+      <input type="radio" name="rating-filter" value="above-4.5">Rating Above 4.5
+    </label>
+    <label>
+      <input type="radio" name="rating-filter" value="below-4.0">Rating Below 4.0
+    </label>
+  </div>
+
+  
+
+  <div class="container">
+    <!-- Recipe cards will be dynamically added here -->
+   
+  </div>
+ 
+  
+
+  <!-- Link JavaScript file -->
+  
+  <script src="script.js"></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+</html>
